@@ -129,6 +129,9 @@ section {
     margin: 10px 0px;
 }
 
+#tea-of-month {
+    margin: 0px auto;
+}
 .images {
     display: flex;
 }
