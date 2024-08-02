@@ -1,0 +1,204 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px; 
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+
+header h1 {
+    margin: auto 10px;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Great Vibes";
+}
+
+
+header nav {
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+}
+
+header ul {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+
+header li {
+    margin: 0px 20px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: underline;
+    color: seashell;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+header  #mission {
+    justify-content: flex-start;
+}
+
+header #tea {
+    justify-content: center;
+}
+
+header #location {
+    justify-content: flex-end;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner-section {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    opacity: 1;
+    display: flex;
+    margin: 0px auto;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 125px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2, h4{
+    margin-bottom: 10px;
+}
+
+.heading {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading h2, h4 {
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h2 {
+    margin: 15px 0px;
+}
+
+.heading h4 {
+    margin: 10px 0px;
+}
+
+.images {
+    display: flex;
+}
+
+.images .image {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.images .image img {
+    width: 300px;
+    height: 200px;
+}
+
+.images h4 {
+    margin-top: 10px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-heading {
+    margin: 15px 0px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    justify-content: center;
+    align-content: center;
+    margin: 15px 40px;
+}
+
+.box h3, p {
+    margin: 20px 0px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: centers;
+}
+
+#contact h2, h5 {
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 69px;
+    justify-content: flex-start;
+    margin: 10px 20px;
+}
